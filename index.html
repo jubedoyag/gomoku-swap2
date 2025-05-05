@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport"
+		  content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./styles.css" type="text/css">
+	<title>Swap2 Gomoku</title>
+
+	<!-- PLEASE NO CHANGES BELOW THIS LINE (UNTIL I SAY SO) -->
+	<script defer language="javascript" type="text/javascript"
+		src="libraries/p5.min.js"></script>
+	<!-- OK, YOU CAN MAKE CHANGES BELOW THIS LINE AGAIN -->
+	<script defer language="javascript" type="module"
+		src="game/gomokuBoard.js"></script>
+	<script defer language="javascript" type="module"
+		src="main.js"></script>
+	<!--
+	<script defer language="javascript" type="text/javascript"
+		src="game/swap2GomokuManager.js"></script>
+	-->
+
+</head>
+
+<body>
+	<div class='main-head-container'>
+		<header>
+			<h1>Swap2 Gomoku</h1>
+		</header>
+
+		<main>
+			<section class='players-section'>
+				<div class='players-options'>
+					<label for='first-slct'>Player1:</label>
+					<select id='first-slct'></select>
+
+					<label for='second-slct'>Player2:</label>
+					<select id='second-slct'></select>
+
+					<button id='start-btn'>Start</button>
+				</div>
+
+				<div class='player-lbls'>
+					<span id='player1-lbl'>Player1</span>
+					<span id='player2-lbl'>Player2</span>
+				</div>
+			</section>
+			<div id='canvas-container'></div>
+		</main>
+	</div>
+	<footer>
+		<i>Julio Bedoya.</i>
+	</footer>
+</body>
+</html>

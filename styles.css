@@ -1,0 +1,47 @@
+body {
+	margin: 0;
+	border: 30px solid #CCC;
+	padding: 0;
+	min-height: 100vh;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: column;
+}
+
+.main-head-container > *, footer {
+	margin: 40px;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+	margin: 40px;
+}
+
+.players-section {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+#player1-lbl {
+	padding: 2px;
+	color: white;
+	background-color: black;
+}
+
+#player2-lbl {
+	border: 1px black solid;
+	padding: 1px;
+}
+
+#canvas-container {
+	/*
+	border: 5px solid red;
+	*/
+	aspect-ratio: 1;
+	width: 500px;
+	max-width: 90vw;
+}
